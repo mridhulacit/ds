@@ -2,5 +2,5 @@
 
 This is my **school project**. 
 
-
-I will writing sample datastructures and python code here
+ * Python changes will be in Python folder
+ * C++ changes will be in cplusplus folder
