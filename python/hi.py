@@ -4,3 +4,4 @@ oTime = datetime.datetime.now()
 
 
 print oTime.isoformat()
+print(time)
