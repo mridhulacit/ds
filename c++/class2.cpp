@@ -70,3 +70,5 @@ int main()
     t.putsample2data();
     return 0;
 }
+
+//this is also a error prog as private member variable is accessed in main//
