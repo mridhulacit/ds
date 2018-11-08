@@ -3,6 +3,7 @@ using namespace std;
 
 class Bird
 {
+  
 public:
 // This is virtual method for demonstrating runtime polymorphism.
 // C++ runtime environment maintains virtualtable(vtable) to store actual reference during runtime
