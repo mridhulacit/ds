@@ -1,0 +1,30 @@
+CONSTRUCTOR:-
+          1.these are the special member functions,whose function is to intialize objects of the respective classes.
+          2.these have same name as class.
+          3.these are invoked automatically when an object is creaated.
+          4.these should be declared only under public visiblity.
+          5.these dont have return type and cannot be inherited.
+          6.they can have defaul arguments and cannot be virtual.
+DESTRUCTORS:-
+        1.these are used to destroy the object created by the constructor.
+        2.it never takes an argument or return any value.
+
+NEW is used to allocate memory to the constructors.
+DELETE is used to free up the space.
+
+PARAMETRIZED CONSTRUCTOR:-
+         1.When the construcotrs are declared along with the parameters or arguments its called as paraametrized constructors.
+         2.they can be caklled implicitly...eg:-interger i(10,20)
+         3.they can claso be called explicitly...eg:-integer i=integer(10,20)
+
+COPY CONSTRUCTOR:-
+         1.A Copy constructor is used to declare and initialize an object from another object.
+         2.the process of initialize]ation from a copy constructoris called as copy initialization.
+         3.a copy constructor takes reference to objectof the same class as itself as an argument.
+        
+MULTIPLE CONSTRUCTOR OF CLASS(CONSTRUCTOR OVERLOADING):-
+        1.when more then one constructor function is defined in a class then the constructor is said to be overloaded.
+
+CONSTRUCTORS WITH DFAULT ARGUMENT:-
+        1.it is totally diff from default constructors,when this default argument cons,called without any arguments it becomes,
+        default constructors.
