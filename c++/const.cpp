@@ -37,14 +37,20 @@ class one
 };
 int main()
 {
-    one m(10,20); //parametrized constructor is called//
+    int n;
+    one m(10,20); //parametrized constructor is called// 
     m.display(); 
-    one w(12); //parametrized constructor with one argument is called//
+    cout<<"enter the value of n:"<<endl;
+    cin>>n;//the value is intiallized during run time called dynamic initiallization//
+    one w(n); //parametrized constructor with one argument is called//
     w.display();
     one v(m); //here the copy constructor is called//
     //the value of object m is copied to object v//
     v.display();
     one c; //non parametrized constructor is called//
+    one ig;
+    ig=m;
+    ig.display();
     c.display();
     //for each object the respective function is called with the object and dot operator//
     return 0;
