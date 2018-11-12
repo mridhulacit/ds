@@ -49,7 +49,7 @@ int main()
     v.display();
     one c; //non parametrized constructor is called//
     one ig;
-    ig=m;
+    ig=m; //the object values are copying// //copy constructor is not called//
     ig.display();
     c.display();
     //for each object the respective function is called with the object and dot operator//
