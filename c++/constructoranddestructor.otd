@@ -45,3 +45,17 @@ subclass or derived class is derived from superclass or base class.
               This type of polymorphism is achieved by Function Overriding.
 Function overriding on the other hand occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.
                 
+
+according to grady booch
+
+Major Elements − By major, it is meant that if a model does not have any one of these elements, it ceases to be object oriented. The four major elements are −
+
+Abstraction
+Encapsulation
+Modularity
+Hierarchy
+Minor Elements − By minor, it is meant that these elements are useful, but not indispensable part of the object model. The three minor elements are −
+
+Typing
+Concurrency
+Persistence
