@@ -1,0 +1,47 @@
+a language should have some basic characteristics to become object oriented programming language.
+they are,
+1.hierarchy(inheritance).
+2.encapsulation(data hiding).
+3.polymorphism.
+4.data abstraction.
+
+these are the basic one which is satisfied in c++,but apart from this we have 3 more characteristics,which are not followed by c++.
+hence c++ is said to be partial object oriented programming language.
+
+the other 3 characteristics are:
+5.All predefined types are objects
+6.All user defined types are objects
+7.All operations performed on objects must be only through methods exposed at the objects.
+
+when a language undergoes all this 7 characteristics then it is said to be pure object oriented programming language.
+
+example:- smalltalk
+
+
+1.hierarchy:-
+       1.the property by which a class can inherit the properties and methods of other class is said to be inheritance or hierarchy.
+       2.the capability of a class to derive properties and characteristics from another class is inheritance.
+derived class(sub class):- the class which inhertis the properties of other class.
+base class(super class):-the class whose properties are inherites by other class.
+
+subclass or derived class is derived from superclass or base class.
+
+
+2.encapsulation:-
+        1.it is the process of wrapping up of a data and its function that manipulates together in to single unit.
+        2.it leads to data abstraction and data hiding.
+        3.it can be implemented through class.
+        4.access specifiers plays a major role in this encapsulation.
+
+3.data abstraction:-
+       1.abstraction is a concept where only the required data or information will be visible by the user.
+
+4.polymorphism:-
+       1.the ability of a message to be displayed in more than one form.
+    there are two kind of polymorphism,1.compile time 2.runtime 
+       1.compile time polymorphism:-
+              This type of polymorphism is achieved by function overloading or operator overloading.
+       2.RUN TIME polymorphism:-
+              This type of polymorphism is achieved by Function Overriding.
+Function overriding on the other hand occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.
+                
