@@ -1,8 +1,13 @@
-CLASS
-       1.a class is a way to bind the data members and member functions together
-       2.in general the variables under class are considered to be private 
-       3.the specification of class is of two parts..1.class declaration,2.class function definitions
-       4.class declaration gives the type and scope of class members.
+'''CLASS'''
+
+* .a class is a way to bind the data members and member functions together
+
+* in general the variables under class are considered to be private 
+       
+* the specification of class is of two parts..1.class declaration,2.class function definitions
+       
+* class declaration gives the type and scope of class members.
+       
        5.the other part describes how the function does it works.
        6.here if necessary we can make the data members into public.
        7.in class public and private are the two main access specifiers used.
