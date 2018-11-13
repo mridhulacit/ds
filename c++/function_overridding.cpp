@@ -30,7 +30,7 @@ int main()
     s.print(); //since it has different method name without any issues its called using oject//
     First_one *a; //overridding mechanism..here object is used as pointer and  method is nvoked//
     Third_one b;
-    //a = &b; //the classes which are virtual will be accessed in this way//
+    a = &b; //the classes which are virtual will be accessed in this way//
     a->display();  //invoking the method// 
     return 0;
 
