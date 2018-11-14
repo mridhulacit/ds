@@ -1,0 +1,117 @@
+1.DIFFERENCE B/W C and C++:
+   
+       1. C++ is a superset of C, except few exceptions the code we write in C will get executed in C++.
+       2.C is a procedural programming,whereas C++ undergoes with both procedural and oops.
+       3.Since C++ is a oop it has characteristics or principles like,inheritance,polymorphism,encapsulation,data hiding whereas
+C wont undergo these following principles.
+       4.exception handling in c++ is carried out in language level while in C it is carried as if-else method.
+       5.references are used in C++ and not in C.
+       6.printf(),scanf() kind of input and output functions used in C,whereas C++ goes with istream and ostream where it gets input using cin 
+and displays output using cout.
+
+2.DIFFERENCE B/W REFERENCES AND POINTERS:
+    
+       1.used to change local variables of one function inside another function. 
+       2.used to save copying of big objects when passed as arguments to functions or 
+       returned from functions,to get efficiency gain.
+References are less powerful than pointers
+1) Once a reference is created, it cannot be later made to reference another object; it cannot be reseated but this is diff in pointers.
+2) References cannot be NULL. Pointers are  made NULL to indicate that they are not pointing to any valid thing.
+3) A reference must be initialized when declared. There is not necessory or compulosory with pointers
+
+3.VIRTUAL FUNCTIONS:
+    
+     1.used with inheritance, 
+     2.they are called according to the type of object pointed or referred, not according to the pointer or reference type.
+     3.virtual functions are resolved at runtime. 
+     4.Virtual keyword is used to make a function virtual.
+
+4.'this' POINTERS:
+
+     1.constant pointer that holds the memory address of the current object.
+     2.‘this’ pointer is not available in static member functions.
+     3.passed as a hidden argument to all nonstatic member function calls and is available as a 
+     local variable within the body of all nonstatic functions. 
+
+5.VTABLE VERSUS VPTR:
+      vtable is a table of function pointers. It is maintained per class.
+      vptr is a pointer to vtable. It is maintained per object 
+
+6.MAJOR C++ FEATURES:
+     1.class
+     2.objects
+     3.data encapsulation
+     4.data abstraction
+     5.inheritance
+     6.polymorphism
+
+7.STRUCTURE VERSUS CLASS IN C++:
+
+     1.data memebers are by default public in structure and private in class
+     2.when we derive a struct from class or structure its access specifier is public whereas its private in class.
+
+8.MALLOC() VERSUS NEW:
+
+          1.new is an operator, while malloc() is a function.
+          2.new returns exact data type, while malloc() returns void *.
+          3.new calls constructors while malloc() does nonstatic
+          4.class instances are initalized and deinitialized automatically in new while it does not 
+          initalized or deinitialized in malloc().
+Syntax:
+int *n = new int(10); 
+str = (char *) malloc(15); 
+
+9.FREE() AND DELETE():
+           free( ) is used on resources allocated by malloc( ), or calloc( ) in C
+
+             Delete is used on resources allocated by new in C++
+
+
+10.INLINE FUNCTIONS:
+
+         1.inline functions are provided by c++ to reduce function call overhead.
+         2.when a inline function is called the entire inline function code is inserted or get substituted.
+         3.this is performed by the compiler during compile time.
+
+syntax:-   inline return-type function-name(parameters);
+
+
+11.FRIEND CLASS:
+
+         1.when a class is declared to be a friend class using keyword friend it can access 
+         protected and private members of any class in which it is declared as friend.
+         2.it violates oops principles.
+         3.it can be a method of a class or global function.
+         4.when too many friend classes are declared encapsulation is lost.
+         5.it does not undergo inheritance.
+         6.if class A is friend of class B, class B will never automatically become friend of A.
+
+
+12.WHEN A COPY CONSTRUCTOR IS CALLED!?
+
+      1.When an object of the class is returned by value.
+      2.When an object of the class is passed (to a function) by value as an argument.
+      3.When an object is constructed based on another object of the same class.
+      4.When compiler generates a temporary object.
+
+13.STATIC MEMBERS:
+
+       1. Static elements are allocated storage only once in a program lifetime in static storage area and their lifetime
+    or scope is till the end of the program.
+
+
+
+///////////////CHECK IT AFTER LEARNING JAVA//////////////
+
+Major Differences between JAVA and C++ 
+There are lot of differences, some of the major differences are:
+
+Java has automatic garbage collection whereas C++ has destructors , which are automatically invoked when the object is destroyed.
+Java does not support pointers, templates, unions, operator overloading, structures etc.
+C++ has no in built support for threads,whereas in Java there is a Thread class that you inherit to create a new thread
+No goto in JAVA
+C++ support multiple inheritance, method overloading and operator overloading but JAVA only has method overloading.
+Java is interpreted and hence platform independent whereas C++ isn’t. At compilation time, Java Source code converts into JVM byte code. The interpreter execute this bytecode at run time and gives output. C++ run and compile using compiler which converts source code into machine level language.
+
+
+    
