@@ -1,0 +1,163 @@
+BASIC FOR AND IF SYNTAX:-
+
+syntax of for loop:-
+     for iteration_variable in range(num,num):  [even if req to calculate any length we can give]
+
+     for iteration_variable in sequence:
+
+     ex:-
+       for i in range(fruits):
+          print fruits(i)
+        
+syntax of if loop:-
+     if True:
+   print "True"
+else:
+   print "False"
+
+
+   if expression : 
+   suite
+elif expression : 
+   suite 
+else : 
+   suite
+
+ASSIGNING VALUES:-
+     user can assign values by using '=' symbol,even values for multiple variables also can be assigned @same time.
+
+     apart from this we have STANDARD DATA TYPES IN PYTHON,they are,
+ 
+       1.NUMBERS
+       2.STRINGS
+       3.LISTS
+       4.TUPLES
+       5.DICTIONARIES
+
+1.NUMBERS:-
+
+     Number data types store numeric values. Number objects are created when you assign a value to them. For example −
+
+var1 = 1
+var2 = 10
+
+     to delete we have syntax:-  del var
+                                 del var_a, var_b
+
+2.STRINGS:-
+          1.Strings in Python are identified as a contiguous set of characters represented in the quotation marks. 
+          2.Python allows for either pairs of single or double quotes. 
+          3.Subsets of strings can be taken using the slice operator ([ ] and [:] ) with indexes,
+                starting at 0 in the beginning of the string and working their way from -1 at the end.
+EXAMPLE:-
+str = 'Hello World!'
+
+print str          # Prints complete string
+print str[0]       # Prints first character of the string
+print str[2:5]     # Prints characters starting from 3rd to 5th
+print str[2:]      # Prints string starting from 3rd character
+print str * 2      # Prints string two times
+print str + "TEST" # Prints concatenated string
+
+OUTPUT:-
+Hello World!
+H
+llo
+llo World!
+Hello World!Hello World!
+Hello World!TEST
+
+3.LISTS:-
+          1.Lists are the most versatile of Python's compound data types. 
+          2.A list contains items separated by commas and enclosed within square brackets ([]). 
+          3.One difference between them is that all the items belonging to a list can be of different data type.
+          4.The values stored in a list can be accessed using the slice operator ([ ] and [:]) with indexes,
+               starting at 0 in the beginning of the list and working their way to end -1
+
+EXAMPLE:-
+
+list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
+tinylist = [123, 'john']
+
+print list          # Prints complete list
+print list[0]       # Prints first element of the list
+print list[1:3]     # Prints elements starting from 2nd till 3rd 
+print list[2:]      # Prints elements starting from 3rd element
+print tinylist * 2  # Prints list two times
+print list + tinylist # Prints concatenated lists
+
+OUTPUT:-
+
+['abcd', 786, 2.23, 'john', 70.2]
+abcd
+[786, 2.23]
+[2.23, 'john', 70.2]
+[123, 'john', 123, 'john']
+['abcd', 786, 2.23, 'john', 70.2, 123, 'john']
+
+
+4.TUPLES:-
+
+         1.A tuple is another sequence data type that is similar to the list. 
+         2.A tuple consists of a number of values separated by commas. 
+         3.Unlike lists, however, tuples are enclosed within parentheses.
+         4.The main differences between lists and tuples are: Lists are enclosed in brackets ( [ ] ) and 
+          their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. 
+         5.Tuples can be thought of as read-only lists.
+
+EXAMPLE:-
+
+tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+tinytuple = (123, 'john')
+
+print tuple           # Prints complete list
+print tuple[0]        # Prints first element of the list
+print tuple[1:3]      # Prints elements starting from 2nd till 3rd 
+print tuple[2:]       # Prints elements starting from 3rd element
+print tinytuple * 2   # Prints list two times
+print tuple + tinytuple # Prints concatenated lists
+
+OUTPUT:-
+
+('abcd', 786, 2.23, 'john', 70.2)
+abcd
+(786, 2.23)
+(2.23, 'john', 70.2)
+(123, 'john', 123, 'john')
+('abcd', 786, 2.23, 'john', 70.2, 123, 'john')
+
+IT CAN'T INCREASE ELEMENT SIZE:-
+EXAMPLE:-
+tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+list = [ 'abcd', 786 , 2.23, 'john', 70.2  ]
+tuple[2] = 1000    # Invalid syntax with tuple
+list[2] = 1000     # Valid syntax with list
+
+5.DICTIONARIES:-
+       1.Python's dictionaries are kind of hash table type.
+       2.hey work like associative arrays or hashes found in Perl and consist of key-value pairs. 
+       3.A dictionary key can be almost any Python type, but are usually numbers or strings.
+       4.Values, on the other hand, can be any arbitrary Python object.
+       5.Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed using square braces ([]).
+
+EXAMPLE:-
+dict = {}
+dict['one'] = "This is one"
+dict[2]     = "This is two"
+
+tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
+
+
+print dict['one']       # Prints value for 'one' key
+print dict[2]           # Prints value for 2 key
+print tinydict          # Prints complete dictionary
+print tinydict.keys()   # Prints all the keys
+print tinydict.values() # Prints all the values
+
+OUTPUT:-
+
+This is one
+This is two
+{'dept': 'sales', 'code': 6734, 'name': 'john'}
+['dept', 'code', 'name']
+['sales', 6734, 'john']
