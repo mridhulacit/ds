@@ -39,4 +39,5 @@ int main()
     cout<<"the dif of float nos is:"<<a2.sub()<<endl;
     cout<<"the product of integers is:"<<a1.mul()<<endl;
     cout<<"the product of float nos is:"<<a2.mul()<<endl;
+    return 0;
 }
