@@ -32,6 +32,7 @@ class sample2
         cout<<"enter the second value for y:"<<endl;
         cin>>y; //this shows error//
         //as private variables can be accessed only within the class//
+        //it shows scope error//
     }
     void putdata2()
     {
