@@ -1,0 +1,9 @@
+in general,compiler will optimize our program inorder to complete work as soon as possible
+but in multithreaded programs, we mayn declare a while loop at some place and 
+the value of that respective variable may get changed in some other part of the program which may not be
+known by the compiler,so here optimization is not preferable
+
+if we use volatile keyword here then compiler will not optimize that part of the program.
+
+Actions on objects so declared shall not be ‘‘optimized out’’ 
+by an implementation or reordered except as permitted by the rules for evaluating expressions

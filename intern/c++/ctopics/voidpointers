@@ -1,0 +1,9 @@
+VOID POINTER:-
+a void pointer is a pointer that has no data type.it can hold address of any data type and
+can be type casted to any type.
+void pointers cannot be dereferenced withour typecasting and arithmetic operations arent allowed over 
+void pointer
+
+ADVANTAGES:
+malloc() and calloc() return void * type and this allows these functions to allocate memory
+ of any data type and void pointers are used to implement genric functions in c

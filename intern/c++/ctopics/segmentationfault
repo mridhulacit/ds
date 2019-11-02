@@ -1,0 +1,37 @@
+*segmentation fault is also knows as core dump
+
+*segmentation is a type of error which is caused by accessing memory that does not belong to you
+
+*When a piece of code tries to do read and write operation in a read only location in memory 
+or freed block of memory, it is known as core dump.
+
+*It is an error indicating memory corruption.
+
+*There are few common segmentation fault scenarios:-
+
+1.modifying a string literal:
+A literal from a string cant be modified it acts as a read only operation where if we try to modify gives 
+segmentation fault.
+
+2.accessing an address that is freed:
+Lets say a pointer is declared and given a value where a space is allocated to a pointer.
+now using Free() function we are deleting the space created for the pointer.
+now even if we try allocation value its impossible because its values arent freed up,
+its memory space so it will not have any address so we cant access that pointer any more
+if we try to access then its segmentation fault or abnormal termination of programm at runtime occcurs.
+
+3.Accessing out of array index bounds:
+we cant access array out of its index boundary,only allocated level of memory space should be used.
+
+4.Improper use of scanf():
+scanf() function requires address of a variable inorder to take a variable as its input.
+If address of respective vvariable isnt produced then memory corruption may occur because 
+the value may be misplaced from the address where it has to be placed
+if memory corruption occurs then segmentation fault will occur.
+
+5.StackOverflow:-
+when recursive functions are used we may ungergo this,and also 
+running out of memory comes under stack overflow these may also cause segmentation fault
+
+6.Dereferencing uninitialized pointer:
+Without initializing a pointe it cannot be Dereference dor accessed this will also cause segmentation fault.

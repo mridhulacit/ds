@@ -1,0 +1,23 @@
+oops-object oriented programming language
+oops is a way of solving problems by dividing them into smaller problems using objects
+initially programs were written in procedural language,where we had a long list of instructions.
+simply,oops is a programming methodology to organize complex program into simple programs by using concepts
+such as,
+1.ABSTRACTION
+2.ENCAPSULATION
+3.HIERARCHY
+INHERITANCE
+4.MODULARITY
+POLYMORPHISM
+these are the major pilars of oops 
+also we have another 3 minor pillars
+1.CONCURRENCY
+2.PERSISTENCE
+3.TYPING(types) - strongly types vs loosly types
+so there are 7 pillars(features) of oops
+in oops we write programs using classes and objects inorder to utilize these features.
+
+**The main aim of OOP is to bind together the data and the functions that operate on them 
+so that no other part of the code can access this data except that function.
+
+1.ABSTRACTION:-

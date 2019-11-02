@@ -1,0 +1,15 @@
+A pointer pointing to a memory location that has been deleted (or freed) is called dangling pointer
+
+there are 3 different situations when a pointer acts as a dangling pointer
+
+1.De-allocation of memory
+when memory pointed by a pointer is deallocated then its dangling pointer
+i.e.,free(ptr),now ptr becomes dangling pointer
+
+2.Function call
+when a pointer pointing to a local variable of a Function it becomes 
+dangling when local variable is not static.
+
+3.variable goes out of scope:
+When a pointer pointing to a variable goes out of scope then the pointer becomes dangling
+
