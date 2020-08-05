@@ -20,4 +20,26 @@ in oops we write programs using classes and objects inorder to utilize these fea
 **The main aim of OOP is to bind together the data and the functions that operate on them 
 so that no other part of the code can access this data except that function.
 
-1.ABSTRACTION:-
+ ACCESS SPECIFIERS AND INHERITANCE :-
+ 
+
+    • access specifiers allows and blocks particluar variables usage by particular clases.
+    • It denotes which class should use which variables
+    • there are  3 access specifiers, 1.public 2.protected 3.private
+    • Public - The members declared as Public are accessible from outside the Class through an object of the class.
+                 Protected - The members declared as Protected are accessible from outside the                  class BUT only in a class derived from it.
+                 Private - These members are only accessible from within the class.
+AS INHERITANCE:-
+    • In public inheritance,
+        1.public,private and protected  member variables can be inherited in its own class.
+        2.public and protected member variables can be inherited and not private member variables in its derived class.
+        3.public and protected member variables can be inherited and not private member variables in its second derived class.
+    • In protected inheritance,
+        1.public,private and protected  member variables can be inherited in its own class.
+        2.public(converting it in to protected variable) and protected member variables can be inherited and not private member variables in its derived class.
+        3.public and protected member variables can be inherited and not private member variables in its second derived class.
+    • In private inheritance,
+        1.public,private and protected  member variables can be inherited in its own class.
+        2.public(converting it into private member variable) and protected(converting it into private member variable) member variables can be inherited and not private member variables in its derived class.
+        3.public,protected and private member variables cant be inherited in its second derived class.`
+      

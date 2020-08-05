@@ -3,7 +3,7 @@ print "Content-type:text/html\r\n"
 import cgi
 import MySQLdb
 formfield=cgi.FieldStorage()
-sid=formfield.getvalue('sid')
+s               id=formfield.getvalue('sid')
 name=formfield.getvalue('sname')
 dept=formfield.getvalue('dept')
 mail=formfield.getvalue('eid')

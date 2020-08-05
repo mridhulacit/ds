@@ -29,6 +29,7 @@
 //#ERROR//
 //if we fail to define N here then error part is found and compilation process is stoped
 #ifndef N 
+//#define N 3
 #error define it first
 //#ERROR//
 //it indicates error the compiler gives fatal error if error is found 

@@ -15,11 +15,13 @@ void * receiveMessage(void * socket) {
  char buffer[BUF_SIZE]; 
  sockfd = (int) socket;
  memset(buffer, 0, BUF_SIZE);  
- for (;;) {
+ for (;;) 
+ {
   ret = recvfrom(sockfd, buffer, BUF_SIZE, 0, NULL, NULL);  
-  if (ret < 0) {  
-   printf("Error receiving data!\n");    
-  } else {
+  if (ret < 0) 
+  {  
+   printf("Erroy gr receiving data!\n");    
+  } xy gelse {
    printf("server: ");
    fputs(buffer, stdout);
    //printf("\n");
